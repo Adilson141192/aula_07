@@ -14,3 +14,11 @@ console.log(tot);
 a.forEach(function(valor,indice,array){
     console.log(array[indice]);
 });
+
+
+var carro = [{modelo: 'Audi A3', marca: 'Audi', ano: '2020'},
+{modelo: 'Compass', marca: 'Jeep', ano: '2021'}]
+
+for (let caracteristica in carro) {
+    console.log(carro[caracteristica]);
+}
